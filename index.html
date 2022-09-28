@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portofolio</title>
+</head>
+<body>
+    <header class="p-3.5 dark:bg-slate-800 ">
+        <div class="p-3.5 text-center sm:flex ">
+            <div class="grow h-14 ">
+                <h1 class="text-slate-100 text-3xl font-bold font-sans sm:text-left">My Portofolio</h1>
+            </div>
+            <nav class="sm:text-right ">
+                <a href="#about" class=" hover:bg-white text-blue-600 visited:text-red-600">About</a> | <a href="#study" class=" hover:bg-white text-blue-600 visited:text-red-600">Study</a> | <a href="#contact" class=" hover:bg-white text-blue-600 visited:text-red-600">Contact</a>
+            </nav>
+        </div>
+        <div class="p-3.5 md:grid md:grid-cols-2">
+            <div class="grow md:grow-0">
+                <h2 class="text-slate-100 text-sm lg:text-xl font-bold">Hello, Saya Muhammad Alvha Ridho Kurnia</h2>
+                <p class="text-white text-xs lg:text-lg sm:text-sm md:text-base mt-5 ">"Kebanyakan programmer hebat melakukan Pemrograman bukan karena mereka mengharapkan 
+                    bayaran atau pujian dari publik, tetapi karena melakukan Pemrograman itu menyenangkan" ~Linus Torvalds~</p>
+            </div>
+            <div class=" ">
+                <img class="mt-6 p-2 w-48 rounded-xl mx-auto lg:w-72 sm:w-56 md:w-64" src="asset/2.jpg">
+            </div>
+        </div>
+    </header>
+
+    <article class="p-3.5 max-w-md mx-auto">
+        <section class="p-3.5 ">
+            <h2 id="about" class="font-semibold text-lg lg:text-xl">About</h2>
+            <p class="text-xs lg:text-lg sm:text-sm md:text-base">Saat bersekolah SMk saya mengambil jurusan Multimedia. Dijurusan itu banyak hal-hal yang belum banyak ketahui
+                seperti fotografi, desain graphic, dunia perfilm, Pemrograman, dan lain-lain. Saya lebih tetarik tentang Pemrograman
+                yang saya pelajari saat kelas 1. Hal yang saya pelajari diwaktu itu adalah website statis yang menggunakan bahasa Pemrograman
+                html dan css.</p>
+        </section>
+        <section class="p-3.5  mx-auto">
+            <h2 id="study" class="font-semibold text-lg lg:text-xl">Pendidikan</h2>
+            <table class="mt-2">
+                <tbody class="font-sans text-xs lg:text-lg">
+                    <tr>
+                    <td>2008-2014</td>
+                    <td>SD Jetiskarangpung 1</td>
+                    </tr>
+                    <tr>
+                        <td>2014-2017</td>
+                        <td>MTsN 8 Sragen</td>
+                    </tr>
+                    <tr>
+                        <td>2017-2020</td>
+                        <td>SMK Negeri 1 Kalijambe</td>
+                    </tr>
+                    <tr>
+                        <td>2020-Sekarang</td>
+                        <td>Universitas Bina Sarana Informatika</td>
+                    </tr>
+                <tbody>
+            </table>
+        </section>
+        <section class="p-3.5 ">
+            <h2 id="contact" class="font-semibold text-xl mb-1">Contact</h2>
+            <form>
+                <label class="">
+                  <span class="block text-sm font-medium text-slate-700">Username</span>
+                  <input type="text" name="name"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                    focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/>
+                    <span class="block text-sm font-medium text-slate-700">Email</span>
+                    <input type="text" name="email"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                      focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/> 
+                    <span class="block text-sm font-medium text-slate-700">Feedback</span>
+                    <textarea type="text" name="message" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-black
+                      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                      focus:invalid:border-pink-500 focus:invalid:ring-pink-500"></textarea> 
+                </label>
+                <input type="submit" value="Submit" class="inline-block mt-2
+                 px-5 py-3 rounded-lg shadow-lg uppercase font-semibold tracking-wider bg-blue-700 text-white hover:bg-pink-500"/>
+            </form>
+        </section>
+    </article>
+    <footer class="p-3.5 dark:bg-slate-800">
+        <div class="text-center text-2xl font-bold">
+            <h2 class="text-white">Media Sosial</h1>
+        </div>
+        <div class="text-center p-3 ">
+            <a href="https://github.com/AlvhaRidho" target="_blank" class=" hover:bg-white text-blue-700 active:bg-pink-500 visited:text-red-600">Github</a>
+            <a href="https://www.instagram.com/alvharidho_02/" target="_blank" class="hover:bg-white text-blue-700 visited:text-red-600">Instagram</a>
+            <a href="https://id.linkedin.com/in/muhammad-alvha-53731b251/en" target="_blank" class="hover:bg-white text-blue-700 visited:text-red-600">Linkedln</a>
+        </div>
+    </footer>
+
+</body>
+</html>
